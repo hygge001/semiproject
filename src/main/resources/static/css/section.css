@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+th>img {
+	width: auto;
+	height: 22px;
+	vertical-align: bottom;
+}
+
+div.table button {
+	background-color: #000;
+	color: #fff;
+	width: 5em;
+	height: 2em;
+	border: none;
+}
+
+div.table {
+	clear: both;
+	margin: 0px 20px;
+}
+
+div.table table {
+	border-collapse: collapse;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin-top: 50px;
+	min-width: 500px;
+	max-width: 500px;
+}
+
+div.table table * {
+	font-size: 13px;
+}
+
+div.table thead {
+	font-weight: bold;
+}
+
+div.table tbody * {
+	font-weight: normal;
+}
+
+div.table tbody tr {
+	border-top: 1px solid lightgray;
+}
+
+div.table tbody tr:nth-child(even) {
+	background-color: #fff;
+}
+
+div.table tbody tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+div.table th {
+	padding: 5px 0px;
+}
+
+div.table th[colspan] {
+	font-weight: bold;
+	text-align: left;
+	padding: 5px 15px;
+	font-size: 16px;
+}
+
+div.table .text-center {
+	text-align: center;
+}
+
+div.table .title {
+	width: 20vw;
+	color: #000;
+}
+
+div.table .title a {
+	color: #000;
+	text-decoration-line: none;
+}
+
+div.table .title a:hover {
+	color: #FFA500;
+	text-decoration-line: underline;
+}
+
+div.table .writer {
+	width: 5vw;
+}
+
+div.table .date {
+	width: 10vw;
+}
+
+div.table_group {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}

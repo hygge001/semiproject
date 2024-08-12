@@ -1,0 +1,117 @@
+div.header {
+  margin: 20px 0;
+  
+}
+
+div.header button {
+  float: right;
+  font-size: 12px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+  margin: 0 2px;
+}
+
+form#post {
+  width: 100%;
+  max-width: 520px;
+  text-align: center;
+}
+
+.inner#writeform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.detail {
+  color:  gray;
+  float: right;
+  text-align: left;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+div.title {
+  margin: 20px 0;
+}
+#title {
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 25px;
+}
+
+div#content {
+  margin: 20px 0;
+}
+#content {
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 350px;
+  resize: none;
+  font-family: inherit;
+  padding: 5px;
+}
+
+.file-upload-wrapper {
+    float: left;
+}
+
+.upload {
+    display: none; /* Hide the default file input */
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+#file-upload-filename {
+    font-size: 14px;
+    color: gray;
+}
+
+/* board 선택 */
+.board-check {
+  float: left;
+  font-weight: bold;
+}
+
+.board-check .radio-item {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(116, 116, 116);
+  display: inline-block;
+  margin-right: 8px;
+  height: 18px;
+}
+
+.board-check input[type="radio"] {
+  vertical-align: middle;
+  margin: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+    
+.board-check input[type="radio"]:checked {
+  background-color: #000;
+}

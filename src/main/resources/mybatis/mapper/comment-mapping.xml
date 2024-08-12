@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="boardmapper.CommentDAO">
+
+    <insert id="addComment" parameterType="boardmapper.CommentDTO">
+        INSERT INTO comments (board_seq, contents, writer)
+        VALUES (#{boardSeq}, #{contents}, #{writer})
+    </insert>
+
+    <select id="getCommentsByBoardSeq" resultType="boardmapper.CommentDTO">
+        SELECT * FROM comments WHERE board_seq = #{boardSeq}
+    </select>
+    
+    <select id="totalCommentsCount" resultType="int">
+		select count(*) from comments
+	</select>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+

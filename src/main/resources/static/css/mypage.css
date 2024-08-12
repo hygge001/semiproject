@@ -1,0 +1,78 @@
+#up-side li {
+	float: left;
+	height: 50px
+}
+
+#up-side li:last-child {
+	border: none;
+}
+
+#up-side li a {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 0;
+	padding: 10px 0;
+	display: block;
+}
+
+#up-side li a:hover {
+	border-top: 4px solid #f02358;
+}
+
+#up-side li a span {
+	border-left: 1px solid #c4c4c4;
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+#up-side li:first-child a span {
+	border: none;
+}
+
+#up-side li>a:hover span {
+	display: block;
+	margin-top: -4px;
+	color: #f02358;
+}
+
+hr {
+	width: 100%;
+}
+
+#down-side {
+	clear: both;
+	padding: 20px 0px;
+	margin: 0px 20px;
+}
+
+#down-side table {
+	width: 100%;
+	height: 2em;
+	border-collapse: collapse;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+#down-side table * {
+	font-size: 15px;
+}
+
+#down-side thead {
+	font-weight: bold;
+}
+
+#down-side tbody * {
+	font-weight: normal;
+}
+
+#down-side tbody tr {
+	border-top: 1px solid lightgray;
+}
+
+#down-side th {
+	padding: 5px 0px;
+}
+
+#down-side p {
+	display: inline;
+}

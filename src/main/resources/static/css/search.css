@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+p.totCnt {
+	font-size: 14px;
+	color: gray;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+table th {
+	font-size: 17px;
+	font-weight: bord;
+	background-color: #000;
+	padding: 1em;
+	text-align: left;
+	color: #fff;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.search-table {
+    width: 100%;
+}
+
+div#searchResults table {
+	clear: both;
+	margin: 0px 20px;
+}
+
+table table {
+	border-collapse: collapse;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+table td.filterTitle {
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #f2f2f2;
+	padding: 0.8em;
+}
+
+table td.filterContent {
+	font-weight: nolmal;
+	font-size: 14px;
+	background-color: #fff;
+	padding: 0.8em;
+}
+
+table a:hover {
+	color: #FFA500;
+	text-decoration-line: underline;
+}	
+
+
+table tr {
+	border-top: 1px solid lightgray;
+}
+
+input#searchInput {
+	width: 500px;
+	height: 35px;
+	padding: 4px 10px;
+	border: 1px solid #c4c4c4;
+	box-sizing: border-box;
+	border-radius: 15px;
+	outline: none;
+	background-color: #000;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#searchBtn {
+	background-color: #000;
+	color: #fff;
+	width: 5em;
+	height: 2em;
+	border: none;
+}
